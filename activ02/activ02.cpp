@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <cstdio>
-#include "read_write_wav.h"
+#include "../read_write_wav.h"
 using namespace std;
 
 // step2: let's split a stereo wav file into two mono wave files.

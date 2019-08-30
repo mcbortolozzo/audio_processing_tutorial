@@ -9,7 +9,7 @@
 #include <map>
 #include <vector>
 #include <algorithm>
-#include "read_write_wav.h"
+#include "../read_write_wav.h"
 using namespace std;
 
 
