@@ -107,6 +107,8 @@ int main(int c, char** argv)
     float *audio_buffer;
     vector<MusicNote> notes;
 
+    // ==========================================================
+    // MAKE YOUR MUSIC HERE!!!!!
     //===============================
     SamplerPlayback* s1 = new SamplerPlayback(60, 0.8, "../sample1.wav");
     MusicNote m1(s1, 0.5, 3);
@@ -115,6 +117,7 @@ int main(int c, char** argv)
     SamplerPlayback* s2 = new SamplerPlayback(60, 0.8, "../sample2.wav");
     MusicNote m2(s2, 3.0, 10);
     notes.push_back(m2);
+    // ==========================================================
 
     //===============================
     // get max signal duration

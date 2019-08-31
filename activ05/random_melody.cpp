@@ -92,6 +92,8 @@ int main(int c, char** argv)
     vector<MusicNote> notes;
 
     float tempo=0;
+    // ==========================================================
+    // MAKE YOUR MUSIC HERE!!!!!
     for (int i=0; i<20; i++)
     {
         //int randNote = rand() % 80 + 10; // 10-89
@@ -102,7 +104,7 @@ int main(int c, char** argv)
         MusicNote m1(s1, tempo, tempo+=randDur*.1);
         notes.push_back(m1);
     }
-
+    // ==========================================================
 
     //===============================
     // get max signal duration
