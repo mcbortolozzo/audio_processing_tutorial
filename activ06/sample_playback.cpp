@@ -7,7 +7,7 @@
 #include <map>
 #include <vector>
 #include <algorithm>
-#include "read_write_wav.h"
+#include "../read_write_wav.h"
 using namespace std;
 
 
@@ -108,11 +108,11 @@ int main(int c, char** argv)
     vector<MusicNote> notes;
 
     //===============================
-    SamplerPlayback* s1 = new SamplerPlayback(60, 0.8, "./sample1.wav");
+    SamplerPlayback* s1 = new SamplerPlayback(60, 0.8, "../sample1.wav");
     MusicNote m1(s1, 0.5, 3);
     notes.push_back(m1);
 
-    SamplerPlayback* s2 = new SamplerPlayback(60, 0.8, "./sample2.wav");
+    SamplerPlayback* s2 = new SamplerPlayback(60, 0.8, "../sample2.wav");
     MusicNote m2(s2, 3.0, 10);
     notes.push_back(m2);
 

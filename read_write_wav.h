@@ -1,6 +1,5 @@
-
-
 #include <sndfile.hh>
+#include <cstring>
 
 int read_wave_file (const char* fname, float*& audio_buffer, int* buffer_len, int* sample_rate);
 void write_wave_file (const char* fname, float* audio_buffer, int buffer_len, int sample_rate);

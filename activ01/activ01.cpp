@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <cstdio>
-#include "read_write_wav.h"
+#include "../read_write_wav.h"
 using namespace std;
 
 // first step: lets read a wav file

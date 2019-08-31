@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <cstdio>
 #include <cmath>
-#include "read_write_wav.h"
+#include "../read_write_wav.h"
 using namespace std;
 
 // lets generate a oscillator with a single pure sine wave 
